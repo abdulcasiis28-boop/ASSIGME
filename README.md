@@ -1,2 +1,62 @@
-git branch -M main
-git remote add origin http://githup.com/abdulcasiis
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website assigment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Hello, I'm a Web Designer</h2>
+        <p>I create simple and clean websites</p>
+        <button>Hire Me</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a beginner web developer learning HTML and CSS.
+            I love creating simple websites.
+        </p>
+    </section>
+
+    <section id="services">
+        <h2>My Services</h2>
+
+        <div class="box">
+            <h3>Web Design</h3>
+            <p>Simple and responsive designs</p>
+        </div>
+
+        <div class="box">
+            <h3>HTML & CSS</h3>
+            <p>Clean and structured code</p>
+        </div>
+
+        <div class="box">
+            <h3>Beginner Projects</h3>
+            <p>Small website projects</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: abdulcasiis28gmail.com</p>
+    </section>
+
+    <footer>
+        <p>© 2025 My Portfolio</p>
+    </footer>
+</body>
+</html>
